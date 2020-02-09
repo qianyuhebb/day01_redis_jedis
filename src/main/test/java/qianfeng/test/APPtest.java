@@ -38,6 +38,7 @@ public class APPtest {
     @Resource(name="redisTemplate")
     private ListOperations<String , Object> listOps;
 
+
     @Resource(name="redisTemplate")
     private SetOperations<String , Object> setOps;
 
